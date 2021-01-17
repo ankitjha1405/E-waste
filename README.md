@@ -25,6 +25,36 @@ Basically in the website we will ask the user to create a profile and when he wa
 
 # Some clicks of Website
 
+# Login Portal
+![Screenshot (9)](https://user-images.githubusercontent.com/76553358/104849259-c8e81800-590e-11eb-9583-726d8c9116dc.png)
+
+# Home
+![Screenshot (3)](https://user-images.githubusercontent.com/76553358/104849026-a43f7080-590d-11eb-9947-ed50a1fa5208.png)
+
+# Product Description
+![Screenshot (4)](https://user-images.githubusercontent.com/76553358/104849119-1b750480-590e-11eb-9420-96a8f6d8fbd4.png)
+
+# Selling Page
+![Screenshot (5)](https://user-images.githubusercontent.com/76553358/104849046-b6b9aa00-590d-11eb-9c8d-d7ae3b620b3d.png)
+
+# FAQ
+![Screenshot (6)](https://user-images.githubusercontent.com/76553358/104849248-be2d8300-590e-11eb-93f9-22b24035a7cc.png)
+
+![Screenshot (7)](https://user-images.githubusercontent.com/76553358/104849122-1e6ff500-590e-11eb-9f73-934dd91a9f77.png)
+
+# Navigation Bar
+![Screenshot (10)](https://user-images.githubusercontent.com/76553358/104849102-07c99e00-590e-11eb-867f-ddc12d4dee1c.png)
+
+# Footer
+![Screenshot (8)](https://user-images.githubusercontent.com/76553358/104849099-04cead80-590e-11eb-9f7e-c4cc66b21f39.png)
+
+
+
+
+
+
+
+
 
 
 
