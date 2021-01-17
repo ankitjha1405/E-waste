@@ -1,0 +1,127 @@
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    /* border: 2px solid black; */
+    
+}
+.pro{
+    box-shadow: 2px 2px 30px rgba(66, 57, 238, 0.2);
+    opacity: 1;
+    border: 2px solid azure;
+    margin: 31px;
+    /* padding: 47px; */
+    padding-left: 22px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 22px;
+    /* padding-top: 85px; */
+    width: 40%;
+    height: auto;
+    /* cursor: pointer; */
+    border-radius: 25px;
+    text-align: center;
+    transition-property: all;
+    /* justify-content: center; */
+    /* text-decoration: none; */
+    /* align-items: center; */
+}
+.pro:hover{
+    background-color: azure;
+    /* width: 500px; */
+    transform: translate3d(0px, -5px, 0px);
+
+    /* border: 2px solid red; */
+}
+.pro a{
+text-decoration: none;
+/* color: black; */
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    /* height: 75%; */
+    padding: 10px;
+    margin-top: auto;
+}
+.imgdesc{
+    font-size: 1em;
+}
+.imgdesc a:hover{
+    /* font-size: 2rem; */
+    /* transform: translate3d(0px, -5px, 0px); */
+    text-decoration: underline;
+}
+/* .tit h2{
+    display: inline;
+} */
+.price{
+    /* width: 100px; */
+    /* height: 10px; */
+    border: 2px solid red;
+}
+.brand h2{
+    display: inline;
+}
+.seller{
+    border: 2px solid red;
+    margin-top: 10px;
+    padding: 10px;
+}
+.btn{
+    margin: 22px;
+    padding: 17px;
+    /* border: 2px solid red; */
+    background-color: black;
+    /* width: 70px; */
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.btn:hover{
+background-color:blue;
+}
+
+
+/* media query */
+/* @media(max-width:1240px){
+    .img{
+    width: 85%;
+    height: 80%;
+    
+    }
+@media(max-width:1116px){
+    #pro1{
+    height: 400px;
+    }
+}
+@media(max-width:960px){
+    .img{
+        width:300px;
+        height:250px;
+    }
+    #pro1{
+        height:350px;
+    }
+} */
+
+@media(min-width:100px) and (max-width:1116px){
+    .pro{
+        width:600px;
+    }
+}
+@media(min-width:100px) and (max-width:405px)
+{
+    .pro{
+        margin: 4px;
+        margin-top: 20px;
+    }
+}
