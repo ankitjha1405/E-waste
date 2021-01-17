@@ -1,0 +1,263 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    background-color: white;
+
+}
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    height: 465px;
+    box-shadow: 2px 2px 30px rgba(66, 57, 238, 0.2);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+.con1 img{
+    width: 50%;
+    cursor: pointer;
+    transform: translate3d(18px,-79px,0px);
+    justify-content: center;
+
+}
+.cont h1{
+    width: 100%;
+background-color: rgba(66, 57, 238, 0.2);
+margin: 11px;
+    
+}
+.con1 h4{
+    width: 100%;
+    /* transform: translate3d(0px,-10px,0px); */
+    margin: -16px;
+}
+.product_type{
+width: 400px;
+height: 30px;
+outline: none;
+/* border: none; */
+font-size: medium;
+margin: 10px;
+
+}
+.probrand{
+    width: 100%;
+    transform: translate3d(7px,-14px,0px);
+}
+.brand{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    /* border: none; */
+    font-size: medium;
+    margin: 10px;
+   
+    transform: translate3d(0px,-9px,0px);
+}
+.tit{
+    width: 90%;
+    font-size: 40px;
+    margin: 16px;
+    padding: 11px;
+}
+.btn {
+    /* background-color: black; */
+    margin: -52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 123px;
+    height: 25px;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 4px 14px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    box-shadow: 2px 6px 16px rgba(66, 57, 238, 0.9);
+    text-align: center;
+    background-color: black;
+    transform: translate3d(-77px,60px,0px);
+    justify-content: center;
+}
+.btn:hover{
+background-color: blue;
+}
+.btn a{
+    text-decoration: none;
+    color:white
+}
+
+
+/* media queris  */
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1156px){
+    .con1{
+        font-size: 1.1rem;
+        height: 500px;
+    }
+.desc textarea{
+    width: 75%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 300px) and (max-width:720px){
+    .con1{
+        flex-wrap: wrap;
+        width: 90%;
+        font-size: 2rem;
+    }
+    .con1 img{
+        width: 29%;
+    }
+    .con1{
+        font-size: 1.1rem;
+        height: 500px;
+    }
+    .desc textarea{
+        width: 75%;
+    }
+    .con1 h4{
+        font-size: 23px;
+    }
+    .product_type{
+        transform: translate3d(0px,-15px,0px);
+    }
+.probrand{
+    transform: translate3d(0px,-30px,0px);
+}
+.brand{
+    transform: translate3d(0px,-47px,0px);
+}
+.area{
+    transform: translate3d(0px,-60px,0px);
+    font-size: 23px;
+}
+.desc textarea{
+    transform: translate3d(0px,-33px,0px);
+}
+.btn{
+   
+    transform: translate3d(-90px,74px,0px);
+    width: 173px;
+    justify-content: center;
+}
+
+}
+
+
+
+
+
+@media(min-width: 475px){
+    .con1 img{
+        width: 22%;
+    }
+}
+
+
+
+
+
+@media(min-width: 720px)and (max-width:1000px){
+    .con1{
+        flex-wrap: wrap;
+        width: 90%;
+        font-size: 2rem;
+    }
+    .con1 img{
+        width: 29%;
+    }
+    .btn{
+        transform: translate3d(-108px,92px,0px);
+        width: 173px;
+    }
+
+}
+
+
+@media(min-width:1000px) and (max-width:1156px){
+    .con1{
+        flex-wrap: wrap;
+        width: 90%;
+        font-size: 2rem;
+    }
+    .con1 img{
+        width: 29%;
+    }
+    .con1{
+        font-size: 2rem;
+        height: 500px;
+    }
+.desc textarea{
+    width: 75%;
+}
+.brand{
+    margin-right: 241px;
+    transform: translate3d(116px,-27px,0px);
+}
+.btn{
+    transform: translate3d(-144px,92px,0px);
+    width: 173px;
+}
+} 
+@media(min-width:450px) and (max-width:600px)
+{
+    .btn{
+        transform: translate3d(-73px,74px,0px);
+        justify-content:center;
+    }
+}
+@media(min-width:300px)and (max-width:450px)
+{
+    .btn{
+        transform: translate3d(-41px,42px,0px);
+    }
+
+
+}
+@media(min-width:310px) and (max-width:430px){
+    .con1 img{
+        width: 33%;
+        transform: translate3d(40px,-74px,0px);
+    }
+}
