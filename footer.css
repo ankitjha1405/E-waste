@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: skyblue;
+width: 100%;
+height: 250px;
+margin: 10px;
+padding: 10px;
+flex-wrap: wrap;
+flex-direction: row;
+/* border: 2px solid red; */
+}
+.foot1 a{
+    text-decoration: none;
+}
+.sus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    transform: translate3d(0px,-11px,0px);
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin-top: 19px;
+    font-weight: bold;
+
+}
+.foot2{
+    display: flex;
+    width: 100%;
+    height: 23px;
+}
+.email{
+    width: 220px;
+    transform: matrix3d(0px, -22px,0px);
+}
+.email input{
+    width: 200px;
+    height: 20px;
+}
+.btn{
+    /* margin: 2px; */
+    padding: 2px;
+    /* border: 2px solid red; */
+    background-color:black;
+    width: 70px;
+    height: 17px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.btn:hover{
+background-color:blue;
+}
+.connect{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform: translate3d(0px, -55px,0px);
+text-align: center;
+margin: 10px;
+}
+.connect h3 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 29px;
+}
+.scm{
+    width: 100%;
+}
+
+/* media queries */
+@media(max-width:342px){
+.connect{
+    transform: translate3d(0px,-50px,0px);
+}
+
+.email input{
+    width: 244px;
+    transform: translate3d(-16px,0px,0px);
+}
+}
