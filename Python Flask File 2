@@ -36,24 +36,24 @@ def home():
     return render_template('home.html')
 
 @app.route('/home')
-def index1():
+def index():
     return render_template('home.html')
 
 @app.route('/aboutus')
-def index():
+def aboutus():
     return render_template('aboutus.html')
                            
 @app.route('/faqs')
-def index3():
+def faq():
     return render_template('faq.html')
 
 @app.route('/productfull')
 @login_required
-def index5():
+def productfull():
     return render_template('productfull.html')
 
 @app.route('/contact')
-def index6():
+def contact():
     return render_template('contact.html')
 
 @app.route('/sell')
@@ -84,7 +84,7 @@ def login():
         if user:
             if check_password_hash(user.password, form.password.data):
                 login_user(user, remember=form.remember.data)
-                return redirect(url_for('home'))
+                return redirect(url_for('productfull'))
 
         return '<h1>Invalid username or password</h1>'
         #return '<h1>' + form.username.data + ' ' + form.password.data + '</h1>'
