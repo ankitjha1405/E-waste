@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+</head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+
+<body>
+     <header class="header">
+
+        <div class="left">
+	   <img src="{{url_for('static', filename='logo.png')}}"/>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="productfull">HOME</a></li>
+                <li><a href="aboutus">ABOUT US</a></li>
+                <li><a href="faqs">FAQs</a></li>
+                <li><a href="contact">CONTACT US</a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn">Main Menu</button>
+                <div class="dropdown-content">
+                  <a href="productfull">HOME</a>
+                  <a href="aboutus">ABOUT US</a>
+                  <a href="faqs">FAQs</a>
+                   <a href="contact">CONTACT US</a>
+                </div>
+              </div>
+        </div>
+        <div class="right">
+            <button class="btn"><a href="login">Register/Login</a></button>
+        </div>
+    </header>
+</body>
+</html>
