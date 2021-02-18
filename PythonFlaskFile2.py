@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb  6 12:30:29 2021
-
-@author: Nischay
-"""
-
 from flask import Flask, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm 
